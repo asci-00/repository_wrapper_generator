@@ -8,7 +8,7 @@ targets:
 builders:
   repository_wrapper_generator:
     target: ":repository_wrapper_generator"
-    import: "package:repository_wrapper_generator/generator.dart"
+    import: "package:repository_wrapper_generator/repository_wrapper_generator.dart"
     builder_factories: ["generateRepositoryWrapper"]
     build_extensions: { ".dart": [".g.part"] }
     auto_apply: dependents

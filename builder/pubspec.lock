@@ -297,6 +297,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
+  repository_isolate_wrapper:
+    dependency: "direct main"
+    description:
+      path: annotation
+      ref: main
+      resolved-ref: b7b698e378287be59a99575fccd29a6ae06399c7
+      url: "https://github.com/asci-00/repository_wrapper_generator.git"
+    source: git
+    version: "0.0.1"
   shelf:
     dependency: transitive
     description:

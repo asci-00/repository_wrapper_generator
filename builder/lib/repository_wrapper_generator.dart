@@ -1,6 +1,6 @@
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
-import 'repository_wrapper_generator.dart';
+import 'src/builder.dart';
 
 Builder generateRepositoryWrapper(BuilderOptions options) {
   // Step 1

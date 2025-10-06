@@ -1,0 +1,5 @@
+name: repository_isolate_wrapper
+description: Code generator annotation for repository wrappers in pomodoro
+version: 0.0.1
+environment:
+  sdk: ">=3.0.1 <4.0.0"

@@ -1,3 +1,4 @@
+publish_to: none
 name: repository_wrapper_generator
 description: Code generator for repository wrappers in pomodoro
 version: 0.0.1
@@ -8,6 +9,11 @@ dependencies:
   analyzer: ^7.4.5
   source_gen: ^3.1.0
   build: ^3.0.0
+  repository_isolate_wrapper:
+    git:
+      url: https://github.com/asci-00/repository_wrapper_generator.git
+      path: annotation
+      ref: main
 
 dev_dependencies:
   build_runner: ^2.7.1
